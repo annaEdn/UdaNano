@@ -1,14 +1,16 @@
+@import "blogHome.css";
+@import "blogFooter.css";
+@import "blogSocial.css";
+
 h1{
-  background: 	#4682B4;
+  background: #4682B4;
   padding: 20px;
-  font-style: italic;
   font-family: fantasy;
-  font-weight: 100;
 }
 h2{
-  font-style: italic;
   font-family: serif;
 }
+
 @media(min-width:900px){
 #container{
   display: grid;
@@ -24,7 +26,6 @@ h2{
 #time {
   background: #781478;
   border-radius: 10%;
-
 }
 #time1{
   line-height: 200%;
@@ -42,7 +43,6 @@ h2{
 }
 #time5{
   font-size: 15px;
-  font-style: italic;
   font-variant: small-caps;
   line-height: 20px;
   background: #F0F8F8;
@@ -52,7 +52,7 @@ h2{
 body {
   font-family: serif;
   font-size: 18px;
-  font-weight: 550;
+  font-weight: normal;
 
 }
 .old {
@@ -64,7 +64,6 @@ body {
   font-size: 15px;
   font-style: normal;
   font-family: sans-serif;
-//  color: #FFFFFF;
 }
 
 .new {
@@ -77,21 +76,4 @@ body {
   font-style: normal;
   font-family: sans-serif;
   //color: #FFFFFF;
-}
-
-
-footer{
-    font-size: 12px;
-    padding: 1em;
-    background:	#4682B4;
-    text-align: right;
-
-}
-.social{
-  font-size: 20px;
-  text-align: left;
-  display: block;
-  width: 50%;
-  margin: 20px;
-  letter-spacing: 10px;
 }
