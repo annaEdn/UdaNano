@@ -1,10 +1,7 @@
-.Home{
-  text-align: left;
-  padding:5px;
-  background-color:#B0C4DE;
-  font-style: italic;
-  font-family: cursive;
-}
+
+@import "blogFooter.css";
+@import "blogHeader.css";
+
 header{
   text-align: left;
   background: #4682B4;
@@ -15,7 +12,6 @@ header{
   color: #B0C4DE;
 }
 
-
 li{
   font-style: italic;
   font-family: cursive;
@@ -25,10 +21,4 @@ li{
 .tick{
   text-align: right;
 }
-footer{
-  text-align: right;
-  font-size: 10px;
-  padding: 5px;
-  color: #B0C4DE;
-  background: #4682B4;
-}
+
